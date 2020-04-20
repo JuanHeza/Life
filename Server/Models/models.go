@@ -29,13 +29,26 @@ type Px struct{
 	//estadoCivil	int
 	Telephone	int
 	Mobile		int
-	//HoraCita	time.Duration
-	BirthDate	Date
+	//HoraCita	string //time.Hour
+	BirthDate	string //time.Date
 	Age			int
 	Religion	string
 	Email		string
 }
 
 /*
+package main
 
+import (
+	"fmt"
+	"time"
+)
+
+func main() {
+	format := "2006-01-02"
+	input := "2018-12-22"
+	s1, _ := time.Parse(format, input )
+fmt.Println(s1)
+	fmt.Printf("%v", s1.Format("02-01-2006"))
+}
 */
